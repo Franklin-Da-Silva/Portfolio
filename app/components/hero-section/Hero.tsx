@@ -95,22 +95,21 @@ export default function Hero() {
         >
           <p className="text-white/60 inline">I&apos;m </p>
           <span className="bg-linear-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
-            Adeola Badero
+            Franklin Da Silva
           </span>
-          <p>a Software Engineer</p>
         </motion.h1>
 
-        <motion.p
+        <motion.h2
+          className="text-[20px] smm:text-[30px] md:text-3xl lg:text-4xl xl:text-5xl leading-tight font-bold"
           initial={{ opacity: 0 }}
-          animate={animateIn2}
-          className="text-white/40  text-xl smm:text-2xl lg:text-3xl xl:text-4xl mt-3 smm:mt-6 "
+          animate={animateIn1}
         >
-          currently focused on building user experiences that drive growth.
-        </motion.p>
+          <p>Full-Stack Developer</p>
+        </motion.h2>
       </div>
 
       {/* IMAGE */}
-      <div data-blobity-tooltip="Soft man">
+      <div data-blobity-tooltip="Sensation">
         <motion.div
           ref={imgRef}
           style={{ rotate }}

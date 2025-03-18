@@ -21,6 +21,7 @@ export default function Contact() {
   const { setSectionInView } = useView();
   const [viewCount, setViewCount] = useState<number>(0);
   const [formDisplay, setFormDisplay] = useState<boolean>(false);
+  const [isPending, setIsPending] = useState<boolean>(false);
 
   const { ref, inView } = useInView({
     threshold: 0.25,
@@ -45,6 +46,7 @@ export default function Contact() {
 
   function onSubmit(data: any) {
     console.log(data);
+    setIsPending(true);
 
     emailjs
       .sendForm(
@@ -69,7 +71,10 @@ export default function Contact() {
             className: `custom-toast font-kumbhSans`,
           });
           reset();
-          setTimeout(() => setFormDisplay(!formDisplay), 5000);
+          setTimeout(
+            () => (setFormDisplay(!formDisplay), setIsPending(false)),
+            5000
+          );
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -83,6 +88,7 @@ export default function Contact() {
             theme: "dark",
             className: `custom-toast font-kumbhSans`,
           });
+          setIsPending(false);
         }
       );
   }
@@ -253,6 +259,7 @@ export default function Contact() {
                   </div>
                   <button
                     className={`rounded-md bg-linear-to-r from-[#d9d9d91f] to-[#7373731f] py-3 px-5 ${syne.className} font-bold uppercase mt-4`}
+                    disabled={isPending}
                   >
                     Send
                   </button>

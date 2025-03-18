@@ -40,25 +40,16 @@ export default function About() {
             point B and iteratively improve as time goes on.
           </AnimatedBody>
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            From writing my first lines of code back in late 2019 to this point
-            I have continually refined my development skills overtime picking up
-            UI/UX design on the way & solving complex challenges increasing the
-            complexity as time goes by to ensure improvement.
+            From writing my first lines of code in mid-2017 to now, I have
+            continuously refined my development skills—not only tackling complex
+            real-world challenges but also seeking opportunities to push my
+            limits through creative problem-solving and calculated risks to
+            maximize my potential.
           </AnimatedBody>
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
             Each challenge is unique so I ensure that I learn and grow through
             each one ensuring that I not only put in my best but also deliver
-            solutions that businesses are proud to call their own. Wanna learn
-            more? Here&apos;s <br className="hidden md:block" />
-            <Link
-              className="underline"
-              href={
-                "https://drive.google.com/file/d/1Rd-IB_5pxsGj4RDtHjEggPB392ND29xB/view?usp=sharing"
-              }
-            >
-              my résumè
-            </Link>
-            .
+            solutions that businesses are proud to call their own.
           </AnimatedBody>
         </div>
 
@@ -72,8 +63,8 @@ export default function About() {
               Frontend Tools
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              JavaScript(ES6+), React, Next.js, TypeScript, Redux, Redux
-              Toolkit, React Query, HTML5, Git/GitHub, React Hook Form, Formik.
+              JavaScript(ES6+), TypeScript, React.js, Next.js, Angular, Vue.js,
+              Nuxt.js
             </AnimatedBody>
           </div>
           <div>
@@ -85,8 +76,8 @@ export default function About() {
               UI Libraries
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              CSS3/SCSS/SASS, Tailwind CSS, Styled Components, Chakra UI, Framer
-              Motion, Bootstrap, ReCharts.
+              CSS3/SCSS/SASS, Bootstrap, Tailwind CSS, Material UI, Clean UI,
+              Ant Design,
             </AnimatedBody>
           </div>
           <div>
@@ -95,10 +86,11 @@ export default function About() {
               charSpace={"mr-[0.001em]"}
               className="font-bold antialiased text-xl md:text-2xl mb-2"
             >
-              Design Tools
+              Backend Tools
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              Figma, FigJam, UX Research, UI Design, Prototyping.
+              Python, PHP, Java, Node.js, Nest.js, Express.js, Django, Flask,
+              FastAPI, Laravel, Spring Framework, Redis
             </AnimatedBody>
           </div>
         </div>

@@ -12,14 +12,12 @@ import { useInView } from "react-intersection-observer";
 export default function FolioCard({
   title,
   img,
-  gitLink,
   liveLink,
   about,
   stack,
 }: {
   img: string;
   title: string;
-  gitLink?: string;
   liveLink: string;
   about: string;
   stack: string[];
@@ -59,22 +57,6 @@ export default function FolioCard({
               data-blobity-magnetic="true"
             >
               <Icon icon="line-md:external-link-rounded" />
-            </Link>
-            <Link
-              href={`${gitLink ? gitLink : "#"}`}
-              className="rounded-full bg-icon-radial p-3"
-              target="_blank"
-              aria-label="View Live Demo"
-              data-blobity-radius="34"
-              data-blobity-magnetic="true"
-              {...(!gitLink && {
-                "data-blobity-tooltip": "Privately owned by Offset",
-              })}
-            >
-              <Icon
-                icon="mingcute:github-line"
-                className={`${!gitLink && "opacity-30"}`}
-              />
             </Link>
           </div>
         </div>
