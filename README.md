@@ -8,7 +8,7 @@ Technologies: React, Next.js, Typescript, Tailwind, React-hook-form, Email.js an
 
 # Gallery
 
-![Portfolio Screenshot1](./Screenshot.jpg)
+![Portfolio Screenshot1](./Screenshot.png)
 
 ![Portfolio Screenshot2](./Screenshot-2.png)
 
