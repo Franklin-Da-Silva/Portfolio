@@ -25,7 +25,7 @@ git clone https://github.com/Franklin-Da-Silva/My-Portfolio.git
 Go to the project directory
 
 ```
-cd ade-folio
+cd My-Portfolio
 ```
 
 Install dependencies
