@@ -104,7 +104,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={animateIn1}
         >
-          <p>Full-Stack Developer</p>
+          <p>Full-Stack Web Developer</p>
         </motion.h2>
       </div>
 

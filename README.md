@@ -12,8 +12,6 @@ Technologies: React, Next.js, Typescript, Tailwind, React-hook-form, Email.js an
 
 ![Portfolio Screenshot2](./Screenshot-2.png)
 
-[View Live Demo](https://adeolabadero.netlify.app)
-
 # Get started
 
 Clone the project
@@ -25,7 +23,7 @@ git clone https://github.com/Franklin-Da-Silva/My-Portfolio.git
 Go to the project directory
 
 ```
-cd My-Portfolio
+cd Portfolio
 ```
 
 Install dependencies

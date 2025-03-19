@@ -52,30 +52,20 @@ export default function MobileMenu({
         <Link
           className="p-4 flex-1 flex justify-center w-full rounded-xl h-fit text-4xl visited:bg-[#E3D3BE] bg-linear-to-r from-[#d9d9d915] to-[#7373731f] std-backdrop-blur"
           target="_blank"
-          href="https://linkedin.com/in/adeola-badero"
+          href="https://linkedin.com/in/franklin-da-silva-9948b0353"
           data-blobity-radius="10"
         >
           <Icon icon="hugeicons:linkedin-01" />
         </Link>
 
-        <div className="flex gap-3 w-full">
-          <Link
-            className="p-4 flex justify-center w-full rounded-xl h-fit text-2xl bg-linear-to-r from-[#d9d9d915] to-[#7373731f] std-backdrop-blur"
-            target="_blank"
-            href="https://github.com/adex-hub"
-            data-blobity-radius="10"
-          >
-            <Icon icon="hugeicons:github" />
-          </Link>
-          <Link
-            className="p-4 flex justify-center w-full rounded-xl h-fit text-2xl bg-linear-to-r from-[#d9d9d915] to-[#7373731f] std-backdrop-blur"
-            target="_blank"
-            href="https://x.com/Ade_the_great"
-            data-blobity-radius="10"
-          >
-            <Icon icon="akar-icons:x-fill" />
-          </Link>
-        </div>
+        <Link
+          className="p-4 flex justify-center w-full rounded-xl h-fit text-2xl bg-linear-to-r from-[#d9d9d915] to-[#7373731f] std-backdrop-blur"
+          target="_blank"
+          href="https://github.com/Franklin-Da-Silva"
+          data-blobity-radius="10"
+        >
+          <Icon icon="hugeicons:github" />
+        </Link>
       </div>
     </motion.div>
   );
